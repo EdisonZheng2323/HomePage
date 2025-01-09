@@ -81,7 +81,7 @@ main {
 
 .picture{
   color: white;
-  
+  height:60%;
 }
 
 .footer-profile {
@@ -116,7 +116,13 @@ main {
   grid-column: 2/3;
   padding-right: 5px;
 }
+.project {
+  border: 1px solid;
+}
 
+.project-text{
+  height: 100%;
+}
 @media (max-width: 600px){
 
   img {
@@ -147,12 +153,11 @@ main {
 
   .project {
     margin-bottom: 30px;
-    border: 1px solid;
+
   }
 
 
   .picture {
-    height:60%;
     padding: 50px 20px 50px 20px;
   }
 }
